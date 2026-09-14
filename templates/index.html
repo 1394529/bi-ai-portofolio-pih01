@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pierre Hubertin ANDRIANIRINA — Spécialiste BI & AI</title>
+  <meta name="description" content="Portfolio de Pierre Hubertin ANDRIANIRINA, Spécialiste BI & AI — Dashboards, Machine Learning, Data Strategy.">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+
+<!-- ─── NAV ──────────────────────────────────────────────────────────────────── -->
+<header class="nav" role="banner">
+  <div class="container">
+    <nav class="nav__inner" aria-label="Navigation principale">
+      <div class="nav__logo">PH<span style="color:var(--text-secondary)">.</span>ANDRIANIRINA</div>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#about" data-nav-about>À propos</a></li>
+        <li><a href="#skills" data-nav-skills>Compétences</a></li>
+        <li><a href="#services" data-nav-services>Services</a></li>
+        <li><a href="#projects" data-nav-projects>Projets</a></li>
+        <li><a href="#contact" data-nav-contact>Contact</a></li>
+      </ul>
+
+      <div class="nav__right">
+        <div class="lang-toggle" role="group" aria-label="Langue">
+          <button class="lang-btn active" data-lang="fr" aria-pressed="true">FR</button>
+          <button class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="nav__hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- ─── HERO ──────────────────────────────────────────────────────────────────── -->
+<section class="hero" id="hero" aria-label="Hero">
+  <div class="hero__bg"></div>
+  <div class="hero__grid-bg"></div>
+  <div class="container">
+    <div class="hero__content fade-up visible">
+      <div class="hero__badge" id="hero-subtitle">Spécialiste BI & AI</div>
+      <h1 class="hero__name">
+        <span id="hero-name">Pierre Hubertin ANDRIANIRINA</span>
+      </h1>
+      <p class="hero__tagline" id="hero-tagline">Transformer vos données en décisions stratégiques</p>
+      <div class="hero__actions">
+        <a href="#about" class="btn btn-primary" id="hero-cta">Découvrir mon profil</a>
+        <a href="#contact" class="btn btn-outline">ai.novacrew@gmail.com</a>
+      </div>
+      <div class="hero__stats">
+        <div>
+          <div class="hero__stat-value" id="about-exp">20+</div>
+          <div class="hero__stat-label"> ans d'expérience</div>
+        </div>
+        <div>
+          <div class="hero__stat-value" id="about-projects">50+</div>
+          <div class="hero__stat-label">projets</div>
+        </div>
+        <div>
+          <div class="hero__stat-value" id="about-clients">30+</div>
+          <div class="hero__stat-label">clients</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── ABOUT ─────────────────────────────────────────────────────────────────── -->
+<section class="section about" id="about" aria-labelledby="about-heading">
+  <div class="container">
+    <h2 class="section-title" id="about-heading">À propos</h2>
+    <div class="about__grid">
+      <div class="about__avatar fade-in">
+        <div class="about__avatar-ring"></div>
+        <div class="about__avatar-placeholder">👤</div>
+      </div>
+      <div class="about__text fade-up">
+        <p id="about-desc">Passionné par la data et l'intelligence artificielle…</p>
+        <blockquote class="about__value" id="about-value"></blockquote>
+        <div class="about__stats">
+          <div class="about__stat">
+            <div class="about__stat-value" id="about-exp-card">20+</div>
+            <div class="about__stat-label">ans d'expérience</div>
+          </div>
+          <div class="about__stat">
+            <div class="about__stat-value" id="about-projects-card">50+</div>
+            <div class="about__stat-label">projets livrés</div>
+          </div>
+          <div class="about__stat">
+            <div class="about__stat-value" id="about-clients-card">30+</div>
+            <div class="about__stat-label">clients satisfaits</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── SKILLS ─────────────────────────────────────────────────────────────────── -->
+<section class="section" id="skills" aria-labelledby="skills-heading">
+  <div class="container">
+    <h2 class="section-title" id="skills-heading">Compétences</h2>
+    <div class="skills__grid" id="skills-grid">
+      <!-- rendered by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ─── SERVICES ───────────────────────────────────────────────────────────────── -->
+<section class="section services" id="services" aria-labelledby="services-heading">
+  <div class="container">
+    <h2 class="section-title" id="services-heading">Services</h2>
+    <div class="services__grid" id="services-grid">
+      <!-- rendered by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ─── PROJECTS ───────────────────────────────────────────────────────────────── -->
+<section class="section" id="projects" aria-labelledby="projects-heading">
+  <div class="container">
+    <h2 class="section-title" id="projects-heading">Projets</h2>
+    <div class="projects__grid" id="projects-grid">
+      <!-- rendered by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ─── CONTACT ────────────────────────────────────────────────────────────────── -->
+<section class="section contact" id="contact" aria-labelledby="contact-heading">
+  <div class="container">
+    <h2 class="section-title" id="contact-heading">Contact</h2>
+    <div class="contact__layout">
+
+      <div class="fade-up">
+        <h3 id="contact-subtitle">Prêt à transformer vos données ?</h3>
+        <p style="color:var(--text-secondary);margin:12px 0 32px;">Pierre Hubertin ANDRIANIRINA</p>
+        <div class="contact__links">
+          <a href="mailto:ai.novacrew@gmail.com" class="contact__link">
+            <div class="contact__link-icon">✉️</div>
+            <span id="contact-email-link">ai.novacrew@gmail.com</span>
+          </a>
+          <a href="#" class="contact__link" id="contact-linkedin" target="_blank" rel="noopener">
+            <div class="contact__link-icon">💼</div>
+            <span>LinkedIn</span>
+          </a>
+          <a href="#" class="contact__link" id="contact-github" target="_blank" rel="noopener">
+            <div class="contact__link-icon">🐙</div>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact__form fade-up">
+        <form id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="f-name" id="contact-name-label">Nom</label>
+            <input type="text" id="f-name" name="name" required autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="f-email" id="contact-email-label">Email</label>
+            <input type="email" id="f-email" name="email" required autocomplete="email" />
+          </div>
+          <div class="form-group">
+            <label for="f-message" id="contact-msg-label">Message</label>
+            <textarea id="f-message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" id="contact-submit" style="width:100%;justify-content:center;">
+            Envoyer
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─── FOOTER ─────────────────────────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="container">
+    <p>© 2024 <span>Pierre Hubertin ANDRIANIRINA</span> — Spécialiste BI & AI · <a href="mailto:ai.novacrew@gmail.com" style="color:var(--accent)">ai.novacrew@gmail.com</a></p>
+  </div>
+</footer>
+
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

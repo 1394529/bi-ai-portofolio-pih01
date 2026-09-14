@@ -1,0 +1,221 @@
+{
+  "hero": {
+    "fr": {
+      "title": "Pierre Hubertin ANDRIANIRINA",
+      "subtitle": "Consultant BI, Data & IA",
+      "tagline": "Transformer vos données en décisions stratégiques",
+      "cta": "Découvrir mon profil"
+    },
+    "en": {
+      "title": "Pierre Hubertin ANDRIANIRINA",
+      "subtitle": "BI, Data & IA Consultant",
+      "tagline": "Turning your data into strategic decisions",
+      "cta": "Discover my profile"
+    }
+  },
+  "about": {
+    "fr": {
+      "heading": "À propos",
+      "description": "Passionné par la data et l'intelligence artificielle, je conçois des solutions BI & AI sur mesure qui permettent aux organisations de prendre des décisions éclairées. Avec plus de 20 ans d'expérience dans le domaine de TI, l'analyse fonctionnel, l'analyse de données, la visualisation et le machine learning, j'accompagne les entreprises dans leur transformation digitale.",
+      "value": "Mon objectif : extraire la valeur cachée dans vos données et la rendre actionnable.",
+      "experience": "20+ ans d'expériences",
+      "projects_done": "50+ projets livrés",
+      "clients": "30+ clients satisfaits"
+    },
+    "en": {
+      "heading": "About",
+      "description": "Passionate about data and artificial intelligence, I design custom BI & AI solutions that enable organizations to make informed decisions. With over 20 years of experience in IT, functional analysis, data analysis, visualization, and machine learning, I support companies in their digital transformation.\r\n",
+      "value": "My goal: extract the hidden value in your data and make it actionable.",
+      "experience": "20+ years of experiences",
+      "projects_done": "50+ projects delivered",
+      "clients": "30+ satisfied clients"
+    }
+  },
+  "skills": {
+    "fr": {
+      "heading": "Compétences"
+    },
+    "en": {
+      "heading": "Skills"
+    },
+    "categories": [
+      {
+        "icon": "📊",
+        "name_fr": "Outils BI",
+        "name_en": "BI Tools",
+        "items": [
+          "Power BI",
+          "Tableau",
+          "Looker",
+          "Qlik Sense",
+          "Metabase"
+        ]
+      },
+      {
+        "icon": "🤖",
+        "name_fr": "AI / ML",
+        "name_en": "AI / ML",
+        "items": [
+          "Python",
+          "TensorFlow",
+          "scikit-learn",
+          "PyTorch",
+          "Hugging Face"
+        ]
+      },
+      {
+        "icon": "🗄️",
+        "name_fr": "Bases de données",
+        "name_en": "Databases",
+        "items": [
+          "PostgreSQL",
+          "MySQL",
+          "MongoDB",
+          "Redis",
+          "Snowflake"
+        ]
+      },
+      {
+        "icon": "☁️",
+        "name_fr": "Cloud",
+        "name_en": "Cloud",
+        "items": [
+          "Azure",
+          "AWS",
+          "GCP",
+          "Snowflake",
+          "Databricks",
+          "dbt"
+        ]
+      }
+    ]
+  },
+  "services": {
+    "fr": {
+      "heading": "Services"
+    },
+    "en": {
+      "heading": "Services"
+    },
+    "items": [
+      {
+        "icon": "📈",
+        "title_fr": "Dashboards BI",
+        "title_en": "BI Dashboards",
+        "desc_fr": "Conception de tableaux de bord interactifs et visuels pour suivre vos KPIs en temps réel.",
+        "desc_en": "Design of interactive and visual dashboards to track your KPIs in real time."
+      },
+      {
+        "icon": "🧠",
+        "title_fr": "Modèles ML",
+        "title_en": "ML Models",
+        "desc_fr": "Développement de modèles de machine learning pour la prédiction, classification et clustering.",
+        "desc_en": "Development of machine learning models for prediction, classification and clustering."
+      },
+      {
+        "icon": "🗺️",
+        "title_fr": "Stratégie Data",
+        "title_en": "Data Strategy",
+        "desc_fr": "Audit et définition de votre gouvernance des données et roadmap analytique.",
+        "desc_en": "Audit and definition of your data governance and analytics roadmap."
+      },
+      {
+        "icon": "⚙️",
+        "title_fr": "Automatisation",
+        "title_en": "Automation",
+        "desc_fr": "Automatisation des pipelines ETL, rapports et workflows pour gagner en efficacité.",
+        "desc_en": "Automation of ETL pipelines, reports and workflows for greater efficiency."
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title_fr": "Plateforme de prévision des ventes retail",
+      "title_en": "Retail Sales Forecasting Platform",
+      "desc_fr": "Développement d'un modèle ML de prévision des ventes pour une chaîne de distribution de 200+ magasins, intégré dans un dashboard Power BI temps réel.",
+      "desc_en": "Development of an ML sales forecasting model for a distribution chain of 200+ stores, integrated into a real-time Power BI dashboard.",
+      "tech": [
+        "Python",
+        "scikit-learn",
+        "Power BI",
+        "Azure ML",
+        "SQL Server"
+      ],
+      "result_fr": "+34% de précision vs méthodes traditionnelles, économie de 2M€/an",
+      "result_en": "+34% accuracy vs traditional methods, saving €2M/year"
+    },
+    {
+      "id": 2,
+      "title_fr": "Système de détection de fraude bancaire",
+      "title_en": "Banking Fraud Detection System",
+      "desc_fr": "Implémentation d'un système de détection d'anomalies en temps réel pour une institution financière, utilisant des algorithmes d'apprentissage non supervisé.",
+      "desc_en": "Implementation of a real-time anomaly detection system for a financial institution using unsupervised learning algorithms.",
+      "tech": [
+        "Python",
+        "TensorFlow",
+        "Kafka",
+        "AWS",
+        "MongoDB"
+      ],
+      "result_fr": "Réduction de 78% des fraudes non détectées, traitement de 10K transactions/sec",
+      "result_en": "78% reduction in undetected fraud, processing 10K transactions/sec"
+    },
+    {
+      "id": 3,
+      "title_fr": "Tableau de bord ESG pour fonds d'investissement",
+      "title_en": "ESG Dashboard for Investment Fund",
+      "desc_fr": "Création d'un outil d'analyse et de reporting ESG permettant d'évaluer les critères environnementaux, sociaux et de gouvernance d'un portefeuille de 150 entreprises.",
+      "desc_en": "Creation of an ESG analysis and reporting tool to evaluate environmental, social and governance criteria for a portfolio of 150 companies.",
+      "tech": [
+        "Tableau",
+        "Python",
+        "GCP BigQuery",
+        "Looker",
+        "dbt"
+      ],
+      "result_fr": "Adoption par 12 gestionnaires de fonds, couverture de 150+ actifs",
+      "result_en": "Adoption by 12 fund managers, coverage of 150+ assets"
+    }
+  ],
+  "contact": {
+    "fr": {
+      "heading": "Contact",
+      "subtitle": "Prêt à transformer vos données ?",
+      "name_label": "Nom",
+      "email_label": "Email",
+      "message_label": "Message",
+      "submit_label": "Envoyer",
+      "email": "ai.novacrew@gmail.com",
+      "linkedin": "https://linkedin.com/in/phubertin",
+      "github": "https://github.com/phubertin"
+    },
+    "en": {
+      "heading": "Contact",
+      "subtitle": "Ready to transform your data?",
+      "name_label": "Name",
+      "email_label": "Email",
+      "message_label": "Message",
+      "submit_label": "Send",
+      "email": "ai.novacrew@gmail.com",
+      "linkedin": "https://linkedin.com/in/phubertin",
+      "github": "https://github.com/phubertin"
+    }
+  },
+  "nav": {
+    "fr": {
+      "about": "À propos",
+      "skills": "Compétences",
+      "services": "Services",
+      "projects": "Projets",
+      "contact": "Contact"
+    },
+    "en": {
+      "about": "About",
+      "skills": "Skills",
+      "services": "Services",
+      "projects": "Projects",
+      "contact": "Contact"
+    }
+  }
+}
